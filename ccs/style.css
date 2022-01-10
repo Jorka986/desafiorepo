@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+  font-family: "Montserrat", sans-serif;
+  background-color:#434343;
+
+}
+
+    
+#header {
+    background-color:black;
+    padding: 83px;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(/repositorio/Img/Negro\ con\ Flecha\ Amarilla\ Autos\ Logo.png);
+    background-repeat:no-repeat;
+    background-size:auto;    
+}
+
+.header__titulo img{
+    width: 200px;
+    height: auto;
+}
+
+#header .header__menu ul{
+    display: flex;
+    list-style: none;
+    grid-template-columns: 100px, 100px;
+    grid-template-rows: 100px, 100px, 100px;   
+}
+
+#header .header__menu ul li a{
+    border: 2px solid  white;
+    padding: 5px;
+    margin: 0 10px;
+    color: yellow;
+    float: right;
+    }
+#mensaje{
+    background-image: url(/repositorio/Img/discos-freno-volkswagen.jpg);
+    background-color: coral;
+    background-position:top left;
+    background-size:1350px;
+    color:black;
+    height: 300px;
+    width: auto;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px 0px;
+    display: grid;
+    justify-content: flex-start;
+    grid-row: 5/7;
+    grid-column: 50px aut 50px;
+    
+}
+#mensaje .Mensaje__impor h1{
+    text-align-last: auto;
+    
+
+}
+#consulta .consulta__{
+        margin-top: 20px;
+
+}
+#parrafo .parrafo__{
+    background-color: skyblue;
+    background-position: center;
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;    
+    border: 1px solid black;
+}
+#parrafo .parrafo__ span{
+    background-color: red;
+}
+#parrafo .boton{
+    background-position: center;
+    display: grid;
+    grid-template-columns: 250px auto 100px;
+     grid-template-rows: 1/3;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px 50px 100px;
+    
+}
+#parrafo{
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+    /*fin de home*/
+    
+}
+/*producto*/
+#body_producto {
+    background-color: coral;
+}
+
+#texto_pro{
+    background-color: #434343;
+    margin-top: 25px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns:auto ;
+    grid-template-rows: 1/4;
+    justify-content: flex-start
+
+}
+/*finproducto*/
+
+ @media (min-width:426px) and (max-width: 768px)
+ { #header {
+     background-color: cyan;
+     font-size: 30px;
+ }
+
+ }
+
+ @media (min-width:450px) and (max-width: 60px)
+ { .texto__parrafo {
+     background-color: yellowgreen;
+     font-size: 30px;}
+    }
+
+  @media(min-width: 426px)
+  {   
+    #texto_pro { background-image: url(/repositorio/Img/calidrept.jpg);
+        background-color: lightblue;
+
+}
+}
